@@ -1,0 +1,23 @@
+# Android/IntelliJ
+.idea
+.gradle
+/local.properties
+/.cxx
+/build
+/captures
+*.iml
+.DS_Store
+
+# Mac system files
+.DS_Store
+**/.DS_Store
+
+# Gradle
+.gradle/
+build/
+
+# Log
+*.log
+
+# Cache
+.cache/
