@@ -17,16 +17,14 @@ class MovieViewModel : ViewModel() {
 
                 movies.clear()
 
-                if (response.Search != null && response.Search.isNotEmpty()) {
+                if (response.Search != null)
+                {
                     movies.addAll(response.Search)
-                } else {
-                    println("⚠️ No movies found or invalid response: ${response.Error}")
                 }
 
             } catch (e: Exception) {
                 e.printStackTrace()
-                println("❌ Exception: ${e.message}")
-            }
+\            }
         }
     }
 }
