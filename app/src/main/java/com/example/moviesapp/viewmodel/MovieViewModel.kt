@@ -24,7 +24,7 @@ class MovieViewModel : ViewModel() {
 
             } catch (e: Exception) {
                 e.printStackTrace()
-\            }
+           }
         }
     }
 }
